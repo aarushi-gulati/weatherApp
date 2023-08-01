@@ -55,8 +55,8 @@ class App extends Component {
     <div className="main">
       <div className="input">
       <Input data = {this.state} onDataChange = {this.handleChange} onDataSubmit = {this.handleSubmit}/>
-      <Display className = "dishplay" data = {this.state} />
       </div>
+      <Display className = "dishplay" data = {this.state}/>
     </div>
     );
   }

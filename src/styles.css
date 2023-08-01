@@ -1,20 +1,17 @@
 .main{
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
     background-image: url("/home/aarushi/Coding/weatherapp/pxfuel.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-*{
-    height: 100%;
-    width: 100%;
-    margin: 0px; 
-    /* background-image: url("/home/aarushi/Coding/weatherapp/pxfuel.jpg"); */
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 .input{
@@ -42,10 +39,3 @@
     flex-direction: column;
 }
 
-.dishplay{
-    margin: 500px;
-}
-
-.loca{
-    margin-top: 100px;
-}
